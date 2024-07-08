@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(75, 74, 74);
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    color: red;
+}
+
+.container{
+    background-color: white;
+    width: 70%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* this will make them in a single line */
+}
+
+input,textarea,button{
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+    font: 100 1.1rem "Georgia";
+    outline: none;
+    margin: 15px;
+}
+button{
+    background-color: rgb(75, 74, 74);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
+
+.task{
+    background-color: antiquewhite;
+    font: 100 1.1rem "Georgia";
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    /* allign items vertically centre */
+    margin: 20px;
+}
+
+.task span{
+    color: rgba(0, 0, 0, 0.531);
+}
+.task>div{
+    width: 100%;
+}
+/* child selector */
+
+.dltbutton{
+   border-radius: 100%;
+   width: 30px;
+   height: 30px;
+   font-size: 1.6rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: blue;
+   color: white;
+   
+}
